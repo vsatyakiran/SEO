@@ -123,7 +123,17 @@ When optimizing content for people, you should make sure it:
 
 - Covers relevant topics with which you have experience or expertise.
 
-- `Title tags` `Meta description` `Header tags (H1-H6)` `Image alt text Open graph` and `Twitter Cards metadata`
+  # What crawler or spider looks?
+
+- `Title tags`
+  
+- `Meta description`
+  
+- `Header tags (H1-H6)`
+  
+- `Image alt text Open`
+  
+- `graph and `Twitter Cards metadata`
 
 # Off-site optimization
 
