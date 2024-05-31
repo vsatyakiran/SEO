@@ -55,6 +55,20 @@ So how do SEO and SEM differ? Technically they aren’t different – SEO is sim
 
 <hr>
 
+# SERP
+A Search Engine Results Page (SERP) is the page that a search engine displays to a user after they enter a search query. SERPs are important for search engine optimization (SEO) because ranking position on a SERP can be highly competitive and impact SEO traffic. Users are more likely to click on results at the top of the page, so poor ranking can lead to less exposure, clicks, traffic, and revenue. 
+
+Mailchimp
+SERP: Search Engine Result Pages Explained - Mailchimp
+Search Engine Results Page (SERP) The page that a search engine returns after a user submits a search query. In addition to organic search results, search engine results pages (SERPs) usually include paid search and pay-per-click (PPC) ads. Thanks to search engine optimization (SEO), ranking position on a SERP can be highly competitive since users are more likely to click on results at the top of the page. With the launch of schema markup, SERPs are becoming much more complex to try to anticipate user needs.
+
+Semrush
+What Is a SERP? Search Engine Results Pages, Explained - Semrush
+2 Jan 2023 — What Is SERP? “SERP'' stands for “search engine results page.” It's a page that a search engine displays to a user after they enter a search query. SERPs include links to different webpages that are relevant to the user's query, along with additional information or images. Many SERPs contain paid ads at the top, followed by organic results underneath. Like this: However, the SERP for one keyword can look a lot different from the SERP for another. And those differences have a huge impact on SEO traffic. Learn more in our guide below.
+
+Growth Enablement for Revenue Teams
+What Are SERPs? Why SERPs Matter For SEO - SEO Glossary
+
 # Why is SEO important?
 
 - SEO is a critical marketing channel. First, and foremost: organic search delivers 53% of all website traffic.
