@@ -123,7 +123,7 @@ When optimizing content for people, you should make sure it:
 
 - Covers relevant topics with which you have experience or expertise.
 
-  # What crawler or spider looks?
+# What crawler or spider looks?
 
 - `Title tags`
   
@@ -132,8 +132,17 @@ When optimizing content for people, you should make sure it:
 - `Header tags (H1-H6)`
   
 - `Image alt text Open`
+
+- `first line of the content`
   
-- `graph and `Twitter Cards metadata`
+- `graph and Twitter Cards metadata`
+
+**Keyword researching** :
+
+1. Brain Stroming
+2. GoolgeResearch
+3. Uber suggest
+4. Keyword planner
 
 # Off-site optimization
 
