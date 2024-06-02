@@ -157,7 +157,7 @@ When optimizing content for people, you should make sure it:
 
 # 1. Understanding how search engines work
 
--`Crawling:` Search engines use crawlers to discover pages on the web by following links and using sitemaps.
+- `Crawling:` Search engines use crawlers to discover pages on the web by following links and using sitemaps.
 
 - `Rendering:` Search engines generate how the page will look using HTML, JavaScript and CSS information.
 
