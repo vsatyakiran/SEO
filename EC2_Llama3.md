@@ -2,11 +2,32 @@
 
 **What are the hardware configurations required of LLama3 8B**
 
-1.High latency when running the lamma3 8b model on local system
+**1.High latency when running the lamma3 8b model on local system**
   - `Solution:` LLaMA 3 8B requires around 16GB of disk space and 20GB of VRAM (GPU memory) in FP16. You could of course deploy LLaMA 3 on a CPU but                 the latency would be too high for a real-life production use case. As for LLaMA 3 70B, it requires around 140GB of disk space and                    160GB of VRAM in FP16. `On AWS EC2, you should select a G5 instance in order to provision an A10 GPU. A g5.xlarge will be enough.`
 
-2. AWS Error for vCPU
+**2. AWS Error for vCPU**
   - `Error:`You have requested more vCPU capacity than your current vCPU limit of 0 allows for the instance bucket that the specified instance type belongs to. Please visit http://aws.amazon.com/contact-us/ec2-request to request an adjustment to this limit.
+  - `Explanation:` The error message indicates that you have reached your vCPU limit for the specified instance type. AWS enforces limits on the number of vCPUs you can allocate within a region to ensure fair usage and manage resource availability.
+  - #### Steps to Resolve the vCPU Limit Issue
+    1.**Check Current Limits:**
+       - Go to the AWS Service Quotas console: https://console.aws.amazon.com/servicequotas/home
+       - In the navigation pane, choose Amazon Elastic Compute Cloud (Amazon EC2).
+       - Look for quotas related to the specific instance family, such as Running On-Demand G and VT instances
+         
+    2.**Request a Limit Increase:**
+      - If your current vCPU limit is insufficient, you need to request a limit increase.
+      - In the Service Quotas console, find the specific vCPU limit that you need to increase.
+      - Select the quota, then choose Request quota increase.
+      - Fill in the required details, specifying the new limit you need, and submit the request.
+        
+    3.**Wait for Approval:**
+       - AWS typically processes limit increase requests within a few hours to a few days.
+       - You will receive an email notification once the request is processed.
+    
+   <img width="675" alt="aws" src="https://github.com/vsatyakiran/SEO/assets/103512987/764678c3-a969-42af-ae28-1bb313f398d5">
+    
+    
+    
 
 **How to check your VRAM:** You can check your computer's VRAM by opening the Settings app, selecting System > Display > Advanced display > Display adapter properties for Display 1, and then looking at the number next to Dedicated Video Memory. 
 
